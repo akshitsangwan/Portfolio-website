@@ -777,6 +777,10 @@ a{
   .skill-heading::after {
     bottom: 9%;
   }
+  .resume-btn{
+    margin-top: 1rem;
+    margin: 1rem auto;
+  }
 }
 
 .qualification-section {
@@ -994,6 +998,13 @@ a{
     .form-btn {
       font-size: 2vmax;
     }
+}
+
+@media (max-width: 480px)
+.form-btn {
+    font-size: 2vmax;
+    margin: 1rem 15%;
+    width: max-content;
 }
 
 .footer-section{
