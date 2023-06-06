@@ -878,8 +878,9 @@ a{
   display: none;
 }
 
-.qualification-content {
-  display: block;
+.qualification_content {
+  display: flex;
+  flex-direction: column;
 }
 
 .qualification-inactive {
@@ -913,6 +914,9 @@ a{
     display: inline-block;
     width: 30px;
     height: 30px;
+  }
+  .qualification_content {
+    gap: 2rem;
   }
 }
 
