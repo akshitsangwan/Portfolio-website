@@ -886,6 +886,13 @@ a{
   display: none;
 }
 
+@media screen and (max-width: 480px) {
+  .qualification-section {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .qualification_button {
     margin-right: unset;
