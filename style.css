@@ -975,6 +975,14 @@ a{
     padding: 0 1rem;
 }
 
+@media (max-width: 480px) {
+  .form-btn {
+    font-size: 2vmax;
+    margin: 1rem 15%;
+    width: max-content;
+  }
+}
+
 @media (max-width: 1300px) {
     .contactme-heading {
       font-size: 40px;
@@ -997,13 +1005,6 @@ a{
     .form-btn {
       font-size: 2vmax;
     }
-}
-
-@media (max-width: 480px)
-.form-btn {
-    font-size: 2vmax;
-    margin: 1rem 15%;
-    width: max-content;
 }
 
 .footer-section{
